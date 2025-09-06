@@ -6,26 +6,19 @@ The App Information Section begins every Qlik Application Load Script and contai
 
 ## Instructions
 
-Create a Section called **App Information** before the **Main** Section in any new app. This code records:
-
-- The App name
-- A Description of the app
-- A version history with change notes
+In the Qlik Applicaiton Load Script, create a Section called **App Information** before the **Main** Section with the following content:
 
 ```
 AppInformation:  
 LOAD * INLINE [  
 AppInformation_Name|AppInformation_Description  
-Sample Application Name|This app loads data from X, Y and Z tables and creates a data model.  
+<application-name>|<application-description>  
 ](delimiter is |);
 
 CodeChange:  
 LOAD * INLINE [  
 CodeChange_Version|CodeChange_Date|CodeChange_Author|CodeChange_Description  
-1.3|10/25/2024|Mark Costa|Added CS-KEYS Section  
-1.2|10/22/2024|Mark Costa|Added CS-MAINVARIABLES in the Main Section  
-1.1|10/22/2024|Mark Costa|Added CS-COMMENTS Section  
-1.0|10/22/2024|Mark Costa|Initial version  
+<change-version>|<change-date>|<change-author>|<change-comment>  
 ](delimiter is |);
 
 ```
