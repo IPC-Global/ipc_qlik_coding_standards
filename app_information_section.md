@@ -9,6 +9,7 @@ The App Information Section begins every Qlik Application Load Script and contai
 In the Qlik Applicaiton Load Script, create a Section called **App Information** before the **Main** Section with the following content:
 
 ```
+///$tab App Information  
 AppInformation:  
 LOAD * INLINE [  
 AppInformation_Name|AppInformation_Description  
@@ -21,4 +22,5 @@ CodeChange_Version|CodeChange_Date|CodeChange_Author|CodeChange_Description
 <change-version>|<change-date>|<change-author>|<change-comment>  
 ](delimiter is |);
 
+///$tab Main 
 ```
