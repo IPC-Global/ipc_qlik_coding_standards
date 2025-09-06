@@ -1,0 +1,16 @@
+ 
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "IPC Qlik Code Standard and Guidelines",
+  "description": "Coding standards for Qlik Developers at IPC Global. These guidelines ensure clean, maintainable code, reduce errors, improve readability, and foster team collaboration.",
+  "folders": [],
+  "excludeFolders": ["src"],
+  "excludeFiles": [],
+  "rules": [],
+  "previousVersions": [
+    {
+      "tag": "v1.0.0",
+      "title": "version 1.0.0"
+    }
+  ]
+}
