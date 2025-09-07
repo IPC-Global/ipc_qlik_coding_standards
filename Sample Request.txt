@@ -1,0 +1,1 @@
+In the "IPDF Composer Demo" space, create a Qlik Sense app named “Demo Inventory v4”. The app must load only the "inventory" table from the "dvdrental" database, and the load script must follow the conventions in the attached "app_information_section.md".
